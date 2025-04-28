@@ -3,8 +3,8 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "L-004";
-const char* password = "admin123";
+const char* ssid = "Your_wifi-ssid";
+const char* password = "Your_wifi_password";
 
 // Relay pins configuration
 const int relayPins[] = {D1, D2, D3, D4};  // GPIO pins for relays
