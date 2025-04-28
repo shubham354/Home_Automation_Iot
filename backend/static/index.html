@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Automation Control Panel</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Home Automation Control Panel</h1>
+        <div class="relay-grid">
+            <div class="relay-card" id="relay-0">
+                <h2>LED 1</h2>
+                <div class="button-group">
+                    <button class="on-btn" onclick="controlRelay(0, true)">ON</button>
+                    <button class="off-btn" onclick="controlRelay(0, false)">OFF</button>
+                </div>
+                <div class="status-indicator"></div>
+            </div>
+            <div class="relay-card" id="relay-1">
+                <h2>LED 2</h2>
+                <div class="button-group">
+                    <button class="on-btn" onclick="controlRelay(1, true)">ON</button>
+                    <button class="off-btn" onclick="controlRelay(1, false)">OFF</button>
+                </div>
+                <div class="status-indicator"></div>
+            </div>
+            <div class="relay-card" id="relay-2">
+                <h2>LED 3</h2>
+                <div class="button-group">
+                    <button class="on-btn" onclick="controlRelay(2, true)">ON</button>
+                    <button class="off-btn" onclick="controlRelay(2, false)">OFF</button>
+                </div>
+                <div class="status-indicator"></div>
+            </div>
+            <div class="relay-card" id="relay-3">
+                <h2>LED 4</h2>
+                <div class="button-group">
+                    <button class="on-btn" onclick="controlRelay(3, true)">ON</button>
+                    <button class="off-btn" onclick="controlRelay(3, false)">OFF</button>
+                </div>
+                <div class="status-indicator"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html> 
